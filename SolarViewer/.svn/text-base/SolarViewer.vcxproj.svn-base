@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{889AA04C-7114-42E2-8CF5-B75C100D5C1C}</ProjectGuid>
+    <RootNamespace>SolarViewer</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 4.2.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\bin</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\bin</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SURSUN3D\DXUT\Core;$(SolutionDir)\SURSUN3D\DXUT\Optional;$(SolutionDir)\SURSUN3D;.\GeneratedFiles;.;$(SolutionDir)\Dependencies\include;$(SolutionDir)\Dependencies\include\QtCore;$(SolutionDir)\Dependencies\include\QtOpenGL;$(SolutionDir)\Dependencies\include\QtGui;$(SolutionDir)\Dependencies\include\cuda4.2;$(SolutionDir)\Dependencies\include\dx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIA_LIB;QT_XML_LIB;QT_SQL_LIB;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_QT3SUPPORT_LIB;QT3_SUPPORT;QT_SVG_LIB;QT_WEBKIT_LIB;QT_XMLPATTERNS_LIB;QT_PHONON_LIB;_WINDOWS;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);QT_TEST_LIB;QT_NO_CAST_TO_ASCII;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QWT_DLL;HAVE_SPATIALITE;CMAKE_INTDIR="Release";NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;qwt5.lib;QtSql4.lib;QtUiTools.lib;QtWebKit4.lib;qtmain.lib;wsock32.lib;SETUPAPI.LIB;QtXml4.lib;QtCore4.lib;QtGui4.lib;QtNetwork4.lib;QtSvg4.lib;osg.lib;osgDB.lib;osgWidget.lib;osgUtil.lib;osgViewer.lib;OpenThreads.lib;osgSim.lib;osgTerrain.lib;osgFX.lib;osgManipulator.lib;osgText.lib;osgGA.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SURSUN3D\DXUT\Core;$(SolutionDir)\SURSUN3D\DXUT\Optional;$(SolutionDir)\SURSUN3D;.\GeneratedFiles;.;$(SolutionDir)\Dependencies\include;$(SolutionDir)\Dependencies\include\QtCore;$(SolutionDir)\Dependencies\include\QtOpenGL;$(SolutionDir)\Dependencies\include\QtGui;$(SolutionDir)\Dependencies\include\cuda4.2;$(SolutionDir)\Dependencies\include\dx;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_MULTIMEDIA_LIB;QT_XML_LIB;QT_SQL_LIB;QT_OPENGL_LIB;QT_NETWORK_LIB;QT_SCRIPT_LIB;QT_QT3SUPPORT_LIB;QT3_SUPPORT;QT_SVG_LIB;QT_WEBKIT_LIB;QT_XMLPATTERNS_LIB;QT_PHONON_LIB;CORE_EXPORT=__declspec(dllimport);GUI_EXPORT=__declspec(dllimport);PYTHON_EXPORT=__declspec(dllimport);ANALYSIS_EXPORT=__declspec(dllimport);_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;QWT_DLL;_WINDOWS;_DEBUG;_USRDLL;QT_TEST_LIB;QT_NO_CAST_TO_ASCII;QT_DEBUG;HAVE_SPATIALITE;CMAKE_INTDIR="Debug";NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;qtmaind.lib;wsock32.lib;SETUPAPI.LIB;QtXmld4.lib;QtCored4.lib;QtGuid4.lib;QtNetworkd4.lib;QtWebKitd4.lib;QtSvgd4.lib;QtSqld4.lib;QtUiToolsd.lib;osgd.lib;osgDBd.lib;osgUtild.lib;osgViewerd.lib;OpenThreadsd.lib;osgSimd.lib;osgTerraind.lib;osgFXd.lib;osgManipulatord.lib;osgTextd.lib;osgGAd.lib;osgQtd.lib;QtOpenGLd4.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;libcpmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CWainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ViewerWidget2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CWainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ViewerWidget2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_CWainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_ViewerWidget2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CWainwindow.cpp" />
+    <ClCompile Include="ViewerWidget2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mymainwindow.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic%27ing %(Filename)%(Extension)...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Uic%27ing %(Filename)%(Extension)...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\uic.exe" -o ".\GeneratedFiles\ui_%(Filename).h" "%(FullPath)"
+</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\uic.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\ui_%(Filename).h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CWainwindow.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing CWainwindow.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_XML_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_NETWORK_LIB -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_SVG_LIB -DQT_WEBKIT_LIB -DQT_XMLPATTERNS_LIB -DQT_PHONON_LIB -DCORE_EXPORT=__declspec(dllimport) -DGUI_EXPORT=__declspec(dllimport) -DPYTHON_EXPORT=__declspec(dllimport) -DANALYSIS_EXPORT=__declspec(dllimport) -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_WARNINGS -DQWT_DLL -D_WINDOWS -D_DEBUG -D_USRDLL -DQT_TEST_LIB -DQT_NO_CAST_TO_ASCII -DQT_DEBUG -DHAVE_SPATIALITE -DCMAKE_INTDIR=\"Debug\" -DNOMINMAX  "-I$(SolutionDir)\SURSUN3D\DXUT\Core" "-I$(SolutionDir)\SURSUN3D\DXUT\Optional" "-I$(SolutionDir)\SURSUN3D" "-I.\GeneratedFiles" "-I." "-I$(SolutionDir)\Dependencies\include" "-I$(SolutionDir)\Dependencies\include\QtCore" "-I$(SolutionDir)\Dependencies\include\QtOpenGL" "-I$(SolutionDir)\Dependencies\include\QtGui" "-I$(SolutionDir)\Dependencies\include\cuda4.2" "-I$(SolutionDir)\Dependencies\include\dx"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(Configuration)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing CWainwindow.h...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_XML_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_NETWORK_LIB -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_SVG_LIB -DQT_WEBKIT_LIB -DQT_XMLPATTERNS_LIB -DQT_PHONON_LIB -D_WINDOWS -DCORE_EXPORT=__declspec(dllimport) -DGUI_EXPORT=__declspec(dllimport) -DPYTHON_EXPORT=__declspec(dllimport) -DANALYSIS_EXPORT=__declspec(dllimport) -DQT_TEST_LIB -DQT_NO_CAST_TO_ASCII -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_WARNINGS -DQWT_DLL -DHAVE_SPATIALITE -DCMAKE_INTDIR=\"Release\" -DNOMINMAX  "-I$(SolutionDir)\SURSUN3D\DXUT\Core" "-I$(SolutionDir)\SURSUN3D\DXUT\Optional" "-I$(SolutionDir)\SURSUN3D" "-I.\GeneratedFiles" "-I." "-I$(SolutionDir)\Dependencies\include\QtCore" "-I$(SolutionDir)\Dependencies\include\QtOpenGL" "-I$(SolutionDir)\Dependencies\include\QtGui" "-I$(SolutionDir)\Dependencies\include" "-I$(SolutionDir)\Dependencies\include\cuda4.2" "-I$(SolutionDir)\Dependencies\include\dx"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(Configuration)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Moc%27ing CWainwindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" </Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ViewerWidget2.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing ViewerWidget2.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_XML_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_NETWORK_LIB -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_SVG_LIB -DQT_WEBKIT_LIB -DQT_XMLPATTERNS_LIB -DQT_PHONON_LIB -DCORE_EXPORT=__declspec(dllimport) -DGUI_EXPORT=__declspec(dllimport) -DPYTHON_EXPORT=__declspec(dllimport) -DANALYSIS_EXPORT=__declspec(dllimport) -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_WARNINGS -DQWT_DLL -D_WINDOWS -D_DEBUG -D_USRDLL -DQT_TEST_LIB -DQT_NO_CAST_TO_ASCII -DQT_DEBUG -DHAVE_SPATIALITE -DCMAKE_INTDIR=\"Debug\" -DNOMINMAX  "-I$(SolutionDir)\SURSUN3D\DXUT\Core" "-I$(SolutionDir)\SURSUN3D\DXUT\Optional" "-I$(SolutionDir)\SURSUN3D" "-I.\GeneratedFiles" "-I." "-I$(SolutionDir)\Dependencies\include" "-I$(SolutionDir)\Dependencies\include\QtCore" "-I$(SolutionDir)\Dependencies\include\QtOpenGL" "-I$(SolutionDir)\Dependencies\include\QtGui" "-I$(SolutionDir)\Dependencies\include\cuda4.2" "-I$(SolutionDir)\Dependencies\include\dx"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing ViewerWidget2.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_XML_LIB -DQT_SQL_LIB -DQT_OPENGL_LIB -DQT_NETWORK_LIB -DQT_SCRIPT_LIB -DQT_QT3SUPPORT_LIB -DQT3_SUPPORT -DQT_SVG_LIB -DQT_WEBKIT_LIB -DQT_XMLPATTERNS_LIB -DQT_PHONON_LIB -D_WINDOWS -DCORE_EXPORT=__declspec(dllimport) -DGUI_EXPORT=__declspec(dllimport) -DPYTHON_EXPORT=__declspec(dllimport) -DANALYSIS_EXPORT=__declspec(dllimport) -DQT_TEST_LIB -DQT_NO_CAST_TO_ASCII -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_WARNINGS -DQWT_DLL -DHAVE_SPATIALITE -DCMAKE_INTDIR=\"Release\" -DNOMINMAX  "-I$(SolutionDir)\SURSUN3D\DXUT\Core" "-I$(SolutionDir)\SURSUN3D\DXUT\Optional" "-I$(SolutionDir)\SURSUN3D" "-I.\GeneratedFiles" "-I." "-I$(SolutionDir)\Dependencies\include\QtCore" "-I$(SolutionDir)\Dependencies\include\QtOpenGL" "-I$(SolutionDir)\Dependencies\include\QtGui" "-I$(SolutionDir)\Dependencies\include" "-I$(SolutionDir)\Dependencies\include\cuda4.2" "-I$(SolutionDir)\Dependencies\include\dx"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">Moc%27ing ViewerWidget2.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp" </Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SURSUN3D\SURSUN3D.vcxproj">
+      <Project>{4aac56da-ad98-4354-9ed3-83cf1462689b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 4.2.targets" />
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties lreleaseOptions="" lupdateOnBuild="0" lupdateOptions="" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" QtVersion_x0020_Win32="4.8.6" RccDir=".\GeneratedFiles" UicDir=".\GeneratedFiles" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

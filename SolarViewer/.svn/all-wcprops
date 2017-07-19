@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/18/trunk/SolarViewer
+END
+SolarViewer.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/SolarViewer/SolarViewer.vcxproj.filters
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/9/trunk/SolarViewer/Main.cpp
+END
+ViewerWidget2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/SolarViewer/ViewerWidget2.cpp
+END
+SolarViewer.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18/trunk/SolarViewer/SolarViewer.vcxproj.user
+END
+CWainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/SolarViewer/CWainwindow.cpp
+END
+SolarViewer.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/9/trunk/SolarViewer/SolarViewer.vcxproj
+END
+ViewerWidget2.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/SolarViewer/ViewerWidget2.h
+END
+mymainwindow.ui
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/9/trunk/SolarViewer/mymainwindow.ui
+END
+CWainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/9/trunk/SolarViewer/CWainwindow.h
+END

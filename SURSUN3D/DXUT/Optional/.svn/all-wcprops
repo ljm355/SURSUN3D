@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional
+END
+DXUTguiIME.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTguiIME.cpp
+END
+DXUTShapes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTShapes.cpp
+END
+DXUTOpt_2010.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTOpt_2010.vcxproj.filters
+END
+DXUTguiIME.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTguiIME.h
+END
+DXUTgui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTgui.cpp
+END
+DXUTOpt_2008.sln
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTOpt_2008.sln
+END
+directx.ico
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/directx.ico
+END
+SDKsound.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKsound.cpp
+END
+DXUTsettingsdlg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTsettingsdlg.cpp
+END
+SDKmisc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKmisc.cpp
+END
+DXUTShapes.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTShapes.h
+END
+DXUTcamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTcamera.cpp
+END
+DXUTres.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTres.cpp
+END
+SDKmesh.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKmesh.cpp
+END
+DXUTgui.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTgui.h
+END
+SDKsound.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKsound.h
+END
+DXUTsettingsdlg.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTsettingsdlg.h
+END
+DXUTOpt_2008.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTOpt_2008.vcproj
+END
+SDKmisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKmisc.h
+END
+DXUTcamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTcamera.h
+END
+SDKmesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKmesh.h
+END
+DXUTres.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTres.h
+END
+SDKwavefile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKwavefile.cpp
+END
+ImeUi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/ImeUi.cpp
+END
+SDKwavefile.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/SDKwavefile.h
+END
+ImeUi.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/ImeUi.h
+END
+DXUTLockFreePipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTLockFreePipe.h
+END
+DXUTOpt_2010.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTOpt_2010.vcxproj
+END
+DXUTOpt_2010.sln
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/trunk/SURSUN3D/DXUT/Optional/DXUTOpt_2010.sln
+END

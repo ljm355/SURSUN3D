@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/44/trunk/Interactive_Solar_Application
+END
+DlgBuildingParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/DlgBuildingParams.h
+END
+CWainwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/18/trunk/Interactive_Solar_Application/CWainwindow.h
+END
+DlgRUNParams.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/trunk/Interactive_Solar_Application/DlgRUNParams.cpp
+END
+FeatureFieldSelector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/25/trunk/Interactive_Solar_Application/FeatureFieldSelector.cpp
+END
+VGEViewerWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/20/trunk/Interactive_Solar_Application/VGEViewerWidget.cpp
+END
+DlgParams.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/41/trunk/Interactive_Solar_Application/DlgParams.cpp
+END
+NorthArrow.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/NorthArrow.h
+END
+City.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/25/trunk/Interactive_Solar_Application/City.h
+END
+CMyDataManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/20/trunk/Interactive_Solar_Application/CMyDataManager.cpp
+END
+IGlobalInterfaces.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/IGlobalInterfaces.cpp
+END
+mymainwindow.ui
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/mymainwindow.ui
+END
+InteractiveImageHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/InteractiveImageHandler.h
+END
+Interactive_Solar_Application.suo
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/Interactive_Solar_Application.suo
+END
+DlgRSUNParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/40/trunk/Interactive_Solar_Application/DlgRSUNParams.h
+END
+DlgBuildingParams.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/DlgBuildingParams.cpp
+END
+CWainwindow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/38/trunk/Interactive_Solar_Application/CWainwindow.cpp
+END
+FeatureFieldSelector.ui
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/20/trunk/Interactive_Solar_Application/FeatureFieldSelector.ui
+END
+ViewerWidget2.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/ViewerWidget2.h
+END
+TemporalSolarWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/TemporalSolarWidget.h
+END
+DlgRUNParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/40/trunk/Interactive_Solar_Application/DlgRUNParams.h
+END
+FeatureFieldSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/20/trunk/Interactive_Solar_Application/FeatureFieldSelector.h
+END
+NorthArrow.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/NorthArrow.cpp
+END
+City.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/44/trunk/Interactive_Solar_Application/City.cpp
+END
+Interactive_Solar_Application.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/38/trunk/Interactive_Solar_Application/Interactive_Solar_Application.vcxproj
+END
+VGEViewerWidget.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/20/trunk/Interactive_Solar_Application/VGEViewerWidget.h
+END
+InteractiveImageHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/InteractiveImageHandler.cpp
+END
+DlgParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/40/trunk/Interactive_Solar_Application/DlgParams.h
+END
+Interactive_Solar_Application.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/38/trunk/Interactive_Solar_Application/Interactive_Solar_Application.vcxproj.filters
+END
+IGlobalInterfaces.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/40/trunk/Interactive_Solar_Application/IGlobalInterfaces.h
+END
+CMyDataManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/20/trunk/Interactive_Solar_Application/CMyDataManager.h
+END
+temporalsolarwidget.ui
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/temporalsolarwidget.ui
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/24/trunk/Interactive_Solar_Application/Main.cpp
+END
+Interactive_Solar_Application.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/25/trunk/Interactive_Solar_Application/Interactive_Solar_Application.vcxproj.user
+END
+ViewerWidget2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/ViewerWidget2.cpp
+END
+TemporalSolarWidget.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7/trunk/Interactive_Solar_Application/TemporalSolarWidget.cpp
+END

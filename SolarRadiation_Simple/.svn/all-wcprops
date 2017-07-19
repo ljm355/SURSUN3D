@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/34/trunk/SolarRadiation_Simple
+END
+Main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/28/trunk/SolarRadiation_Simple/Main.cpp
+END
+SolarRadiation_Simple.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/SolarRadiation_Simple/SolarRadiation_Simple.vcxproj.filters
+END
+TextureBaker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4/trunk/SolarRadiation_Simple/TextureBaker.cpp
+END
+TextureBaker.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/SolarRadiation_Simple/TextureBaker.h
+END
+SolarRadiation_Simple.vcxproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/34/trunk/SolarRadiation_Simple/SolarRadiation_Simple.vcxproj.user
+END
+SolarRadiation_Simple.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/SolarRadiation_Simple/SolarRadiation_Simple.vcxproj
+END
